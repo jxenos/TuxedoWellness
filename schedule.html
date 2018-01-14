@@ -111,7 +111,10 @@
 
     <!-- Page Content -->
     <div class="container">
-        <div class="" style=" height: 800px; white-space: nowrap; text-align: center; margin: 1em 0;">
+		<div class="" style="margin-top:10px">
+			You can view our current <button type="button" name="schedule" id="scheduleBtn">Schedule</button> on MindBody
+		</div>
+		<div class="" style=" height: 800px; white-space: nowrap; text-align: center; margin: 1em 0;">
 
             <span style="display: inline-block; height: 100%; vertical-align: middle;"></span>
             <img src="images/OnlineSchedule.jpg" alt="Schedule image" style="width:auto; height:800px; verticle">
@@ -139,7 +142,13 @@
     <!-- Do not edit these files! In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
     <script src="js/jqBootstrapValidation.js"></script>
     <script src="js/contact_me.js"></script>
-
+	<script type="text/javascript">
+		var schedBtn = document.getElementById("scheduleBtn");
+		schedBtn.addEventListener('click', openMindBody);
+		function openMindBody (){
+			window.open("https://clients.mindbodyonline.com/classic/ws?studioid=199867&stype=-7&sView=week&sLoc=0");
+		}
+	</script>
 </body>
 
 </html>
