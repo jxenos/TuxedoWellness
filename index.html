@@ -34,7 +34,7 @@
 </head>
 
 <body>
-
+	<div id="fb-root"></div>
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
@@ -92,7 +92,7 @@
     </nav>
 
     <!-- Header Carousel -->
-    <header id="myCarousel" class="carousel slide">
+    <header id="myCarousel" class="carousel slide" style="height:35%">
         <!-- Indicators -->
         <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -124,7 +124,7 @@
     </header>
 
     <!-- Page Content -->
-    <div class="container">
+    <div class="container" style="width:70%">
 
         <!-- Marketing Icons Section -->
         <div class="row">
@@ -133,7 +133,7 @@
                     Welcome to Modern Well-Being
                 </h1>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-2">
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         <h4></i>Yoga</h4>
@@ -143,7 +143,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-2">
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         <h4></i>Thai Body Work</h4>
@@ -153,7 +153,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-2">
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         <h4></i>Squash</h4>
@@ -163,6 +163,7 @@
                     </div>
                 </div>
             </div>
+			<iframe class="col-md-6" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ftuxedowellness%2F&tabs=timeline&width=750&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="500" height="450" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
         </div>
         <!-- /.row -->
 
@@ -179,6 +180,16 @@
 
     </div>
     <!-- /.container -->
+
+	<!-- FB page -->
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.11';
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
