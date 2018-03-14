@@ -68,7 +68,7 @@
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav navbar-right">
                             <li>
-                                <a href="about.html">About</a>
+                                <a href="about.html">Meet the Team</a>
                             </li>
                             <!--
                             <li>
@@ -112,9 +112,11 @@
     <!-- Page Content -->
     <div class="container">
 
-    <!-- Begin Constant Contact Inline Form Code -->
-    <div class="ctct-inline-form" data-form-id="40b3cc8a-191c-4da2-8cb3-baa8735909b4"></div>
-    <!-- End Constant Contact Inline Form Code -->
+	<!-- NewLetter Sign Up -->
+	    <div class="" style="padding-top:10px">
+	    	<button type="button" name="NewsLetter" id="newsLetterBtn">Sign up for our News Letter</button>
+	    </div>
+		<img src="images/DecNews.png" alt="Decemeber News">
 
         <!-- Footer -->
         <footer>
@@ -138,6 +140,13 @@
     <!-- Do not edit these files! In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
     <script src="js/jqBootstrapValidation.js"></script>
     <script src="js/contact_me.js"></script>
+	<script type="text/javascript">
+		var newsBtn = document.getElementById("newsLetterBtn");
+		newsBtn.addEventListener('click', newsLetter);
+		function newsLetter (){
+			window.location = window.location.href.replace("news", "newsletter");
+		}
+	</script>
 
 </body>
 
