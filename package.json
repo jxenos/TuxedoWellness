@@ -1,0 +1,19 @@
+{
+  "name": "tuxedo-wellness",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jxenos/TuxedoWellness.git"
+  },
+  "author": "Jorj Xenos & Phil Arfuso",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jxenos/TuxedoWellness/issues"
+  },
+  "homepage": "https://github.com/jxenos/TuxedoWellness#readme"
+}
